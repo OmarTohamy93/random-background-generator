@@ -1,0 +1,24 @@
+:root {
+    --background-color: #410445;
+    --text-color: #F6DC43;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
